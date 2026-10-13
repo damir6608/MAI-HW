@@ -1,0 +1,26 @@
+[
+  {
+    "buttons": [],
+    "overflow": false,
+    "scrollWidth": 320,
+    "viewport": 320
+  },
+  {
+    "buttons": [],
+    "overflow": false,
+    "scrollWidth": 360,
+    "viewport": 375
+  },
+  {
+    "buttons": [],
+    "overflow": false,
+    "scrollWidth": 768,
+    "viewport": 768
+  },
+  {
+    "buttons": [],
+    "overflow": false,
+    "scrollWidth": 1440,
+    "viewport": 1440
+  }
+]

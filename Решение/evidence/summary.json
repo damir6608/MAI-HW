@@ -1,0 +1,25 @@
+{
+  "verified_at_utc": "2026-10-12T12:46:52.580493+00:00",
+  "demo": {
+    "exit_code": 0,
+    "log": "demo.txt"
+  },
+  "tests": {
+    "exit_code": 0,
+    "log": "tests.txt"
+  },
+  "before": {
+    "exit_code": 1,
+    "log": "before.txt"
+  },
+  "after": {
+    "exit_code": 0,
+    "log": "after.txt"
+  },
+  "environment": {
+    "python": "3.12.14",
+    "platform": "Windows",
+    "codex_version": "codex-cli 0.162.0-alpha.17.2",
+    "external_python_dependencies": 0
+  }
+}

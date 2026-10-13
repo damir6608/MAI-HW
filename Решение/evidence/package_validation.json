@@ -1,0 +1,18 @@
+{
+  "required_files": 10,
+  "missing_files": [],
+  "broken_local_links": [],
+  "rule_count": 24,
+  "template_count": 11,
+  "RTCF_block_counts": {
+    "Role": 22,
+    "Task": 22,
+    "Context": 22,
+    "Format": 22
+  },
+  "rules_identical_to_AGENTS": true,
+  "raw_responses_match_source": true,
+  "production_pricing_identical_to_after": true,
+  "lines_over_100_in_demo": [],
+  "passed": true
+}

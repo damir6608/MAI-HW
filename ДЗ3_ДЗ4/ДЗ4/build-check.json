@@ -1,0 +1,10 @@
+{
+  "gzipBytes": 91491,
+  "limitBytes": 350000,
+  "passed": true,
+  "assets": [
+    "index-yLm1f3-7.css",
+    "index-YPTDT-Mj.js"
+  ],
+  "method": "Python zlib, gzip level 6; Node zlib check-build separately reports 91602 bytes"
+}

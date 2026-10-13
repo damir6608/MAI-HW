@@ -1,0 +1,7 @@
+{
+  "subtotal_kopecks": 2030000,
+  "delivery_kopecks": 15000,
+  "total_kopecks": 2045000,
+  "first_delivery": "2026-10-14",
+  "days": 7
+}

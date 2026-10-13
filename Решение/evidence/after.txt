@@ -1,0 +1,20 @@
+test_boolean_delivery (tests.test_pricing.PricingTests.test_boolean_delivery) ... ok
+test_boolean_price (tests.test_pricing.PricingTests.test_boolean_price) ... ok
+test_default_delivery (tests.test_pricing.PricingTests.test_default_delivery) ... ok
+test_empty_prices (tests.test_pricing.PricingTests.test_empty_prices) ... ok
+test_float_delivery (tests.test_pricing.PricingTests.test_float_delivery) ... ok
+test_float_price (tests.test_pricing.PricingTests.test_float_price) ... ok
+test_input_is_unchanged (tests.test_pricing.PricingTests.test_input_is_unchanged) ... ok
+test_large_integer_exactness (tests.test_pricing.PricingTests.test_large_integer_exactness) ... ok
+test_negative_delivery (tests.test_pricing.PricingTests.test_negative_delivery) ... ok
+test_negative_price (tests.test_pricing.PricingTests.test_negative_price) ... ok
+test_result_is_integer (tests.test_pricing.PricingTests.test_result_is_integer) ... ok
+test_string_price (tests.test_pricing.PricingTests.test_string_price) ... ok
+test_sum_with_delivery (tests.test_pricing.PricingTests.test_sum_with_delivery) ... ok
+test_tuple_container (tests.test_pricing.PricingTests.test_tuple_container) ... ok
+test_zero_price (tests.test_pricing.PricingTests.test_zero_price) ... ok
+
+----------------------------------------------------------------------
+Ran 15 tests in 0.001s
+
+OK

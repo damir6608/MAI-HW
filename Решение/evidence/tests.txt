@@ -1,0 +1,46 @@
+test_boolean_delivery (test_orders.OrderTests.test_boolean_delivery) ... ok
+test_boolean_duration (test_orders.OrderTests.test_boolean_duration) ... ok
+test_boolean_price (test_orders.OrderTests.test_boolean_price) ... ok
+test_boolean_quantity (test_orders.OrderTests.test_boolean_quantity) ... ok
+test_datetime_rejected (test_orders.OrderTests.test_datetime_rejected) ... ok
+test_delivery_boundary_two_days (test_orders.OrderTests.test_delivery_boundary_two_days) ... ok
+test_delivery_in_past (test_orders.OrderTests.test_delivery_in_past) ... ok
+test_delivery_one_day (test_orders.OrderTests.test_delivery_one_day) ... ok
+test_empty_order (test_orders.OrderTests.test_empty_order) ... ok
+test_float_duration (test_orders.OrderTests.test_float_duration) ... ok
+test_float_price (test_orders.OrderTests.test_float_price) ... ok
+test_input_unchanged (test_orders.OrderTests.test_input_unchanged) ... ok
+test_invalid_duration (test_orders.OrderTests.test_invalid_duration) ... ok
+test_month_boundary (test_orders.OrderTests.test_month_boundary) ... ok
+test_negative_delivery (test_orders.OrderTests.test_negative_delivery) ... ok
+test_negative_price (test_orders.OrderTests.test_negative_price) ... ok
+test_negative_quantity (test_orders.OrderTests.test_negative_quantity) ... ok
+test_one_day_total (test_orders.OrderTests.test_one_day_total) ... ok
+test_upper_date_boundary (test_orders.OrderTests.test_upper_date_boundary) ... ok
+test_week_delivery_charged_once (test_orders.OrderTests.test_week_delivery_charged_once) ... ok
+test_wrong_container (test_orders.OrderTests.test_wrong_container) ... ok
+test_wrong_date_type (test_orders.OrderTests.test_wrong_date_type) ... ok
+test_wrong_item (test_orders.OrderTests.test_wrong_item) ... ok
+test_year_boundary (test_orders.OrderTests.test_year_boundary) ... ok
+test_zero_price_and_free_delivery (test_orders.OrderTests.test_zero_price_and_free_delivery) ... ok
+test_zero_quantity (test_orders.OrderTests.test_zero_quantity) ... ok
+test_boolean_delivery (test_pricing.PricingTests.test_boolean_delivery) ... ok
+test_boolean_price (test_pricing.PricingTests.test_boolean_price) ... ok
+test_default_delivery (test_pricing.PricingTests.test_default_delivery) ... ok
+test_empty_prices (test_pricing.PricingTests.test_empty_prices) ... ok
+test_float_delivery (test_pricing.PricingTests.test_float_delivery) ... ok
+test_float_price (test_pricing.PricingTests.test_float_price) ... ok
+test_input_is_unchanged (test_pricing.PricingTests.test_input_is_unchanged) ... ok
+test_large_integer_exactness (test_pricing.PricingTests.test_large_integer_exactness) ... ok
+test_negative_delivery (test_pricing.PricingTests.test_negative_delivery) ... ok
+test_negative_price (test_pricing.PricingTests.test_negative_price) ... ok
+test_result_is_integer (test_pricing.PricingTests.test_result_is_integer) ... ok
+test_string_price (test_pricing.PricingTests.test_string_price) ... ok
+test_sum_with_delivery (test_pricing.PricingTests.test_sum_with_delivery) ... ok
+test_tuple_container (test_pricing.PricingTests.test_tuple_container) ... ok
+test_zero_price (test_pricing.PricingTests.test_zero_price) ... ok
+
+----------------------------------------------------------------------
+Ran 41 tests in 0.002s
+
+OK

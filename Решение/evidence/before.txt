@@ -1,0 +1,83 @@
+test_boolean_delivery (tests.test_pricing.PricingTests.test_boolean_delivery) ... FAIL
+test_boolean_price (tests.test_pricing.PricingTests.test_boolean_price) ... FAIL
+test_default_delivery (tests.test_pricing.PricingTests.test_default_delivery) ... ok
+test_empty_prices (tests.test_pricing.PricingTests.test_empty_prices) ... ok
+test_float_delivery (tests.test_pricing.PricingTests.test_float_delivery) ... FAIL
+test_float_price (tests.test_pricing.PricingTests.test_float_price) ... FAIL
+test_input_is_unchanged (tests.test_pricing.PricingTests.test_input_is_unchanged) ... ok
+test_large_integer_exactness (tests.test_pricing.PricingTests.test_large_integer_exactness) ... ok
+test_negative_delivery (tests.test_pricing.PricingTests.test_negative_delivery) ... FAIL
+test_negative_price (tests.test_pricing.PricingTests.test_negative_price) ... FAIL
+test_result_is_integer (tests.test_pricing.PricingTests.test_result_is_integer) ... ok
+test_string_price (tests.test_pricing.PricingTests.test_string_price) ... ok
+test_sum_with_delivery (tests.test_pricing.PricingTests.test_sum_with_delivery) ... ok
+test_tuple_container (tests.test_pricing.PricingTests.test_tuple_container) ... FAIL
+test_zero_price (tests.test_pricing.PricingTests.test_zero_price) ... ok
+
+======================================================================
+FAIL: test_boolean_delivery (tests.test_pricing.PricingTests.test_boolean_delivery)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\latyp\Desktop\Institute of Computer Technologies and Information Security\4481\МИИ\Решение\foodtech_demo\tests\test_pricing.py", line 67, in test_boolean_delivery
+    with self.assertRaises(TypeError):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: TypeError not raised
+
+======================================================================
+FAIL: test_boolean_price (tests.test_pricing.PricingTests.test_boolean_price)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\latyp\Desktop\Institute of Computer Technologies and Information Security\4481\МИИ\Решение\foodtech_demo\tests\test_pricing.py", line 59, in test_boolean_price
+    with self.assertRaises(TypeError):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: TypeError not raised
+
+======================================================================
+FAIL: test_float_delivery (tests.test_pricing.PricingTests.test_float_delivery)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\latyp\Desktop\Institute of Computer Technologies and Information Security\4481\МИИ\Решение\foodtech_demo\tests\test_pricing.py", line 63, in test_float_delivery
+    with self.assertRaises(TypeError):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: TypeError not raised
+
+======================================================================
+FAIL: test_float_price (tests.test_pricing.PricingTests.test_float_price)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\latyp\Desktop\Institute of Computer Technologies and Information Security\4481\МИИ\Решение\foodtech_demo\tests\test_pricing.py", line 55, in test_float_price
+    with self.assertRaises(TypeError):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: TypeError not raised
+
+======================================================================
+FAIL: test_negative_delivery (tests.test_pricing.PricingTests.test_negative_delivery)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\latyp\Desktop\Institute of Computer Technologies and Information Security\4481\МИИ\Решение\foodtech_demo\tests\test_pricing.py", line 51, in test_negative_delivery
+    with self.assertRaises(ValueError):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_negative_price (tests.test_pricing.PricingTests.test_negative_price)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\latyp\Desktop\Institute of Computer Technologies and Information Security\4481\МИИ\Решение\foodtech_demo\tests\test_pricing.py", line 47, in test_negative_price
+    with self.assertRaises(ValueError):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_tuple_container (tests.test_pricing.PricingTests.test_tuple_container)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\latyp\Desktop\Institute of Computer Technologies and Information Security\4481\МИИ\Решение\foodtech_demo\tests\test_pricing.py", line 75, in test_tuple_container
+    with self.assertRaises(TypeError):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: TypeError not raised
+
+----------------------------------------------------------------------
+Ran 15 tests in 0.003s
+
+FAILED (failures=7)

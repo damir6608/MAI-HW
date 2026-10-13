@@ -1,0 +1,577 @@
+{
+  "numTotalTestSuites": 9,
+  "numPassedTestSuites": 9,
+  "numFailedTestSuites": 0,
+  "numPendingTestSuites": 0,
+  "numTotalTests": 44,
+  "numPassedTests": 44,
+  "numFailedTests": 0,
+  "numPendingTests": 0,
+  "numTodoTests": 0,
+  "snapshot": {
+    "added": 0,
+    "failure": false,
+    "filesAdded": 0,
+    "filesRemoved": 0,
+    "filesRemovedList": [],
+    "filesUnmatched": 0,
+    "filesUpdated": 0,
+    "matched": 0,
+    "total": 0,
+    "unchecked": 0,
+    "uncheckedKeysByFile": [],
+    "unmatched": 0,
+    "updated": 0,
+    "didUpdate": false
+  },
+  "startTime": 1791824828084,
+  "success": true,
+  "testResults": [
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [
+            "каталог и фильтр"
+          ],
+          "fullName": "каталог и фильтр показывает загрузку до получения данных",
+          "status": "passed",
+          "title": "показывает загрузку до получения данных",
+          "duration": 69.03330000000005,
+          "failureMessages": [],
+          "meta": {},
+          "tags": []
+        },
+        {
+          "ancestorTitles": [
+            "каталог и фильтр"
+          ],
+          "fullName": "каталог и фильтр показывает четыре карточки и фильтрует по типу",
+          "status": "passed",
+          "title": "показывает четыре карточки и фильтрует по типу",
+          "duration": 345.3833000000002,
+          "failureMessages": [],
+          "meta": {},
+          "tags": []
+        },
+        {
+          "ancestorTitles": [
+            "каталог и фильтр"
+          ],
+          "fullName": "каталог и фильтр повторяет запрос после ошибки и восстанавливает каталог",
+          "status": "passed",
+          "title": "повторяет запрос после ошибки и восстанавливает каталог",
+          "duration": 104.16779999999972,
+          "failureMessages": [],
+          "meta": {},
+          "tags": []
+        },
+        {
+          "ancestorTitles": [
+            "каталог и фильтр"
+          ],
+          "fullName": "каталог и фильтр показывает пустой каталог",
+          "status": "passed",
+          "title": "показывает пустой каталог",
+          "duration": 48.37049999999999,
+          "failureMessages": [],
+          "meta": {},
+          "tags": []
+        },
+        {
+          "ancestorTitles": [
+            "каталог и фильтр"
+          ],
+          "fullName": "каталог и фильтр позволяет сбросить фильтр без результатов",
+          "status": "passed",
+          "title": "позволяет сбросить фильтр без результатов",
+          "duration": 133.56359999999995,
+          "failureMessages": [],
+          "meta": {},
+          "tags": []
+        },
+        {
+          "ancestorTitles": [
+            "меню и корзина"
+          ],
+          "fullName": "меню и корзина открывает доступный диалог с аллергенами и закрывает кнопкой",
+          "status": "passed",
+          "title": "открывает доступный диалог с аллергенами и закрывает кнопкой",
+          "duration": 227.03110000000015,
+          "failureMessages": [],
+          "meta": {},
+          "tags": []
+        },
+        {
+          "ancestorTitles": [
+            "меню и корзина"
+          ],
+          "fullName": "меню и корзина пересчитывает день/неделю и удаляет позицию через минус",
+          "status": "passed",
+          "title": "пересчитывает день/неделю и удаляет позицию через минус",
+          "duration": 279.3440999999998,
+          "failureMessages": [],
+          "meta": {},
+          "tags": []
+        },
+        {
+          "ancestorTitles": [
+            "меню и корзина"
+          ],
+          "fullName": "меню и корзина блокирует увеличение при девяти",
+          "status": "passed",
+          "title": "блокирует увеличение при девяти",
+          "duration": 15.42430000000013,
+          "failureMessages": [],
+          "meta": {},
+          "tags": []
+        },
+        {
+          "ancestorTitles": [
+            "оформление"
+          ],
+          "fullName": "оформление пустая корзина не показывает форму",
+          "status": "passed",
+          "title": "пустая корзина не показывает форму",
+          "duration": 2.4114999999997053,
+          "failureMessages": [],
+          "meta": {},
+          "tags": []
+        },
+        {
+          "ancestorTitles": [
+            "оформление"
+          ],
+          "fullName": "оформление пустая дата блокирует API и сохраняет заказ",
+          "status": "passed",
+          "title": "пустая дата блокирует API и сохраняет заказ",
+          "duration": 65.48259999999982,
+          "failureMessages": [],
+          "meta": {},
+          "tags": []
+        },
+        {
+          "ancestorTitles": [
+            "оформление"
+          ],
+          "fullName": "оформление ранняя дата блокирует API",
+          "status": "passed",
+          "title": "ранняя дата блокирует API",
+          "duration": 62.940900000000056,
+          "failureMessages": [],
+          "meta": {},
+          "tags": []
+        },
+        {
+          "ancestorTitles": [
+            "оформление"
+          ],
+          "fullName": "оформление требует согласие с демонстрационным режимом",
+          "status": "passed",
+          "title": "требует согласие с демонстрационным режимом",
+          "duration": 53.745800000000145,
+          "failureMessages": [],
+          "meta": {},
+          "tags": []
+        },
+        {
+          "ancestorTitles": [
+            "оформление"
+          ],
+          "fullName": "оформление отправляет корректный снимок заказа и блокирует двойную отправку",
+          "status": "passed",
+          "title": "отправляет корректный снимок заказа и блокирует двойную отправку",
+          "duration": 85.72579999999971,
+          "failureMessages": [],
+          "meta": {},
+          "tags": []
+        },
+        {
+          "ancestorTitles": [
+            "оформление"
+          ],
+          "fullName": "оформление сбой API undefined сохраняет форму и корзину",
+          "status": "passed",
+          "title": "сбой API undefined сохраняет форму и корзину",
+          "duration": 134.58409999999958,
+          "failureMessages": [],
+          "meta": {},
+          "tags": []
+        },
+        {
+          "ancestorTitles": [
+            "оформление"
+          ],
+          "fullName": "оформление сбой API 401 сохраняет форму и корзину",
+          "status": "passed",
+          "title": "сбой API 401 сохраняет форму и корзину",
+          "duration": 128.98630000000003,
+          "failureMessages": [],
+          "meta": {},
+          "tags": []
+        },
+        {
+          "ancestorTitles": [
+            "оформление"
+          ],
+          "fullName": "оформление успех очищает корзину и показывает подтверждение",
+          "status": "passed",
+          "title": "успех очищает корзину и показывает подтверждение",
+          "duration": 294.30189999999993,
+          "failureMessages": [],
+          "meta": {},
+          "tags": []
+        }
+      ],
+      "startTime": 1791824830008,
+      "endTime": 1791824832058.302,
+      "status": "passed",
+      "message": "",
+      "name": "frontend/tests/components.test.jsx"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [
+            "расчёт заказа в копейках"
+          ],
+          "fullName": "расчёт заказа в копейках день, две порции, доставка один раз",
+          "status": "passed",
+          "title": "день, две порции, доставка один раз",
+          "duration": 3.7409999999999854,
+          "failureMessages": [],
+          "meta": {},
+          "tags": []
+        },
+        {
+          "ancestorTitles": [
+            "расчёт заказа в копейках"
+          ],
+          "fullName": "расчёт заказа в копейках неделя и несколько разных позиций",
+          "status": "passed",
+          "title": "неделя и несколько разных позиций",
+          "duration": 0.42669999999998254,
+          "failureMessages": [],
+          "meta": {},
+          "tags": []
+        },
+        {
+          "ancestorTitles": [
+            "расчёт заказа в копейках"
+          ],
+          "fullName": "расчёт заказа в копейках пустой заказ без доставки",
+          "status": "passed",
+          "title": "пустой заказ без доставки",
+          "duration": 0.2882000000001881,
+          "failureMessages": [],
+          "meta": {},
+          "tags": []
+        },
+        {
+          "ancestorTitles": [
+            "расчёт заказа в копейках"
+          ],
+          "fullName": "расчёт заказа в копейках отклоняет период 0",
+          "status": "passed",
+          "title": "отклоняет период 0",
+          "duration": 0.3946000000000822,
+          "failureMessages": [],
+          "meta": {},
+          "tags": []
+        },
+        {
+          "ancestorTitles": [
+            "расчёт заказа в копейках"
+          ],
+          "fullName": "расчёт заказа в копейках отклоняет период 2",
+          "status": "passed",
+          "title": "отклоняет период 2",
+          "duration": 0.21460000000001855,
+          "failureMessages": [],
+          "meta": {},
+          "tags": []
+        },
+        {
+          "ancestorTitles": [
+            "расчёт заказа в копейках"
+          ],
+          "fullName": "расчёт заказа в копейках отклоняет период true",
+          "status": "passed",
+          "title": "отклоняет период true",
+          "duration": 0.1631999999999607,
+          "failureMessages": [],
+          "meta": {},
+          "tags": []
+        },
+        {
+          "ancestorTitles": [
+            "расчёт заказа в копейках"
+          ],
+          "fullName": "расчёт заказа в копейках отклоняет период 7",
+          "status": "passed",
+          "title": "отклоняет период 7",
+          "duration": 0.1313000000000102,
+          "failureMessages": [],
+          "meta": {},
+          "tags": []
+        },
+        {
+          "ancestorTitles": [
+            "расчёт заказа в копейках"
+          ],
+          "fullName": "расчёт заказа в копейках отклоняет цену или переполнение -1",
+          "status": "passed",
+          "title": "отклоняет цену или переполнение -1",
+          "duration": 0.21790000000009968,
+          "failureMessages": [],
+          "meta": {},
+          "tags": []
+        },
+        {
+          "ancestorTitles": [
+            "расчёт заказа в копейках"
+          ],
+          "fullName": "расчёт заказа в копейках отклоняет цену или переполнение 0.5",
+          "status": "passed",
+          "title": "отклоняет цену или переполнение 0.5",
+          "duration": 0.20079999999984466,
+          "failureMessages": [],
+          "meta": {},
+          "tags": []
+        },
+        {
+          "ancestorTitles": [
+            "расчёт заказа в копейках"
+          ],
+          "fullName": "расчёт заказа в копейках отклоняет цену или переполнение true",
+          "status": "passed",
+          "title": "отклоняет цену или переполнение true",
+          "duration": 0.21450000000004366,
+          "failureMessages": [],
+          "meta": {},
+          "tags": []
+        },
+        {
+          "ancestorTitles": [
+            "расчёт заказа в копейках"
+          ],
+          "fullName": "расчёт заказа в копейках отклоняет цену или переполнение 9007199254740991",
+          "status": "passed",
+          "title": "отклоняет цену или переполнение 9007199254740991",
+          "duration": 0.1249000000000251,
+          "failureMessages": [],
+          "meta": {},
+          "tags": []
+        },
+        {
+          "ancestorTitles": [
+            "расчёт заказа в копейках"
+          ],
+          "fullName": "расчёт заказа в копейках отклоняет количество 0",
+          "status": "passed",
+          "title": "отклоняет количество 0",
+          "duration": 0.20699999999987995,
+          "failureMessages": [],
+          "meta": {},
+          "tags": []
+        },
+        {
+          "ancestorTitles": [
+            "расчёт заказа в копейках"
+          ],
+          "fullName": "расчёт заказа в копейках отклоняет количество 10",
+          "status": "passed",
+          "title": "отклоняет количество 10",
+          "duration": 0.10410000000001673,
+          "failureMessages": [],
+          "meta": {},
+          "tags": []
+        },
+        {
+          "ancestorTitles": [
+            "расчёт заказа в копейках"
+          ],
+          "fullName": "расчёт заказа в копейках отклоняет количество 1.5",
+          "status": "passed",
+          "title": "отклоняет количество 1.5",
+          "duration": 0.0988999999999578,
+          "failureMessages": [],
+          "meta": {},
+          "tags": []
+        },
+        {
+          "ancestorTitles": [
+            "расчёт заказа в копейках"
+          ],
+          "fullName": "расчёт заказа в копейках отклоняет количество false",
+          "status": "passed",
+          "title": "отклоняет количество false",
+          "duration": 0.10940000000005057,
+          "failureMessages": [],
+          "meta": {},
+          "tags": []
+        },
+        {
+          "ancestorTitles": [
+            "изменение корзины"
+          ],
+          "fullName": "изменение корзины не мутирует исходный массив и позицию",
+          "status": "passed",
+          "title": "не мутирует исходный массив и позицию",
+          "duration": 0.29539999999997235,
+          "failureMessages": [],
+          "meta": {},
+          "tags": []
+        },
+        {
+          "ancestorTitles": [
+            "изменение корзины"
+          ],
+          "fullName": "изменение корзины добавляет новую позицию",
+          "status": "passed",
+          "title": "добавляет новую позицию",
+          "duration": 0.11629999999991014,
+          "failureMessages": [],
+          "meta": {},
+          "tags": []
+        },
+        {
+          "ancestorTitles": [
+            "изменение корзины"
+          ],
+          "fullName": "изменение корзины удаляет при уменьшении до нуля",
+          "status": "passed",
+          "title": "удаляет при уменьшении до нуля",
+          "duration": 0.1554999999998472,
+          "failureMessages": [],
+          "meta": {},
+          "tags": []
+        },
+        {
+          "ancestorTitles": [
+            "изменение корзины"
+          ],
+          "fullName": "изменение корзины ограничивает девятью",
+          "status": "passed",
+          "title": "ограничивает девятью",
+          "duration": 0.10940000000005057,
+          "failureMessages": [],
+          "meta": {},
+          "tags": []
+        },
+        {
+          "ancestorTitles": [
+            "дата доставки"
+          ],
+          "fullName": "дата доставки плюс два календарных дня через смену года",
+          "status": "passed",
+          "title": "плюс два календарных дня через смену года",
+          "duration": 0.23020000000019536,
+          "failureMessages": [],
+          "meta": {},
+          "tags": []
+        },
+        {
+          "ancestorTitles": [
+            "дата доставки"
+          ],
+          "fullName": "дата доставки допускает граничную дату",
+          "status": "passed",
+          "title": "допускает граничную дату",
+          "duration": 0.28379999999992833,
+          "failureMessages": [],
+          "meta": {},
+          "tags": []
+        },
+        {
+          "ancestorTitles": [
+            "дата доставки"
+          ],
+          "fullName": "дата доставки отклоняет раннюю дату",
+          "status": "passed",
+          "title": "отклоняет раннюю дату",
+          "duration": 0.2515000000000782,
+          "failureMessages": [],
+          "meta": {},
+          "tags": []
+        },
+        {
+          "ancestorTitles": [
+            "дата доставки"
+          ],
+          "fullName": "дата доставки отклоняет несуществующий день",
+          "status": "passed",
+          "title": "отклоняет несуществующий день",
+          "duration": 0.12409999999999854,
+          "failureMessages": [],
+          "meta": {},
+          "tags": []
+        },
+        {
+          "ancestorTitles": [
+            "дата доставки"
+          ],
+          "fullName": "дата доставки отклоняет пустое поле",
+          "status": "passed",
+          "title": "отклоняет пустое поле",
+          "duration": 0.1432999999999538,
+          "failureMessages": [],
+          "meta": {},
+          "tags": []
+        },
+        {
+          "ancestorTitles": [
+            "граница mock API"
+          ],
+          "fullName": "граница mock API принимает валидный каталог и пустой результат",
+          "status": "passed",
+          "title": "принимает валидный каталог и пустой результат",
+          "duration": 1.0474999999999,
+          "failureMessages": [],
+          "meta": {},
+          "tags": []
+        },
+        {
+          "ancestorTitles": [
+            "граница mock API"
+          ],
+          "fullName": "граница mock API отклоняет дубли ID",
+          "status": "passed",
+          "title": "отклоняет дубли ID",
+          "duration": 0.5957999999998265,
+          "failureMessages": [],
+          "meta": {},
+          "tags": []
+        },
+        {
+          "ancestorTitles": [
+            "граница mock API"
+          ],
+          "fullName": "граница mock API отклоняет дробную цену",
+          "status": "passed",
+          "title": "отклоняет дробную цену",
+          "duration": 0.34390000000007603,
+          "failureMessages": [],
+          "meta": {},
+          "tags": []
+        },
+        {
+          "ancestorTitles": [
+            "граница mock API"
+          ],
+          "fullName": "граница mock API отклоняет неправильные поля меню",
+          "status": "passed",
+          "title": "отклоняет неправильные поля меню",
+          "duration": 0.2717000000000098,
+          "failureMessages": [],
+          "meta": {},
+          "tags": []
+        }
+      ],
+      "startTime": 1791824829730,
+      "endTime": 1791824829741.344,
+      "status": "passed",
+      "message": "",
+      "name": "frontend/tests/order.test.js"
+    }
+  ]
+}
